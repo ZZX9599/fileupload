@@ -1,0 +1,16 @@
+#端口
+server:
+  port: 8080
+
+#项目或微服务名  
+spring:
+  application:
+    name: file-upload
+
+  #静态资源
+  web:
+    resources:
+      static-locations: classpath:/static
+
+
+
